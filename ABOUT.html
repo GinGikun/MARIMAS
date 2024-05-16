@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>FoodieXpress</title>
+</head>
+
+<body>
+  <!-- navigatin bar -->
+
+  <header class="bg-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-black fw-bold" href="index.html" data-bs-toggle="tooltip" data-bs-title="Marimas"
+          data-bs-placement="bottom">Marimas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="resep.html">Resep</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="produk.html">Product</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="ABOUT.html">About</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link cta" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- CONTENT -->
+    <div class="container">
+      <div class="about">
+        <div class="title-about">
+          <h1>About Marimas</h1>
+        </div>
+        <div class="p-about">
+          <p>Arti dari marimas adalah Mari Memasak dimana pada website ini kami menyediakan resep-resep masukan
+            dan produk-produk yang berhubungan pada resep makanan kalian. jadi semua masalah anda dalam memasak kami
+            sediakan pada website kami.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END CONTENT -->
+
+    <footer>
+      <div class="footer-about">
+        <div class="container py-5" id="contact">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <h3 class="fw-bold pb-3">Visit us</h3>
+              <p>
+                Congcat<br />
+                YOGYAKARTA
+              </p>
+              <a href="mailto:marimas@gmail.com" class="text-dark">marimas@gmail.com</a>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h3 class="fw-bold pb-3">Our Link</h3>
+              <div class="d-flex flex-column">
+                <a href="index.html" class="text-dark">Home</a>
+                <a href="resep.html" class="text-dark">Resep</a>
+                <a href="produk.html" class="text-dark">Product</a>
+                <a href="ABOUT.html" class="text-dark">About</a>
+                <a href="contact.html" class="text-dark">Contact</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h3 class="fw-bold pb-3">Our Link</h3>
+              <div class="d-flex">
+                <a href="#" class="text-dark">
+                  <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                </a>
+                <a href="#" class="text-dark px-3">
+                  <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                </a>
+                <a href="#" class="text-dark px-3">
+                  <ion-icon name="logo-github" class="icon"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center copyright"> &copy; 2023 all right reserved by marimas</p>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+</body>
+
+</html>
